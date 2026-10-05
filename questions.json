@@ -1,0 +1,51 @@
+{
+  "written": "2026-10-01",
+  "rule": "Each question is the review paper's own stated aim, taken from its abstract, and was written before any re-run. It was not adjusted after looking at retrieved or missed records. The search template, hunt mode, and top_k stay as in the title-based run; only the question text changes.",
+  "template": "Find all documents relevant to: {question}",
+  "mode": "hunt",
+  "top_k": 35,
+  "reviews": [
+    {
+      "review_key": "Donners_2021",
+      "doi": "10.1007/s40262-021-01042-w",
+      "review_title": "Pharmacokinetics and Associated Efficacy of Emicizumab in Humans: A Systematic Review",
+      "source_quote": "To investigate this assumption, a systematic review on the pharmacokinetics (PK) and associated efficacy of emicizumab in humans was conducted.",
+      "question": "What is known about the pharmacokinetics of emicizumab in humans, and how do emicizumab concentrations relate to the prevention of bleeding in people with haemophilia A, with or without factor VIII inhibitors, including children and adults?"
+    },
+    {
+      "review_key": "Nelson_2002",
+      "doi": "10.1001/jama.288.7.872",
+      "review_title": "Postmenopausal Hormone Replacement Therapy",
+      "source_quote": "To assess the benefits and harms of HRT for the primary prevention of cardiovascular disease, thromboembolism, osteoporosis, cancer, dementia, and cholecystitis by reviewing the literature, conducting meta-analyses, and calculating outcome rates.",
+      "question": "What are the benefits and harms of postmenopausal hormone replacement therapy for the primary prevention of cardiovascular disease, thromboembolism, osteoporosis, cancer, dementia, and cholecystitis?"
+    },
+    {
+      "review_key": "Oud_2018",
+      "doi": "10.1177/0004867418791257",
+      "review_title": "Specialized psychotherapies for adults with borderline personality disorder: A systematic review and meta-analysis",
+      "source_quote": "The aim of this systematic review is to investigate the effectiveness of these psychotherapies.",
+      "question": "How effective are specialized psychotherapies for adults with borderline personality disorder, specifically dialectical behaviour therapy, mentalization-based treatment, transference-focused therapy, and schema therapy, compared with non-specialized psychological treatment?"
+    },
+    {
+      "review_key": "Muthu_2021",
+      "doi": "10.1097/BRS.0000000000003645",
+      "review_title": "Fragility Analysis of Statistically Significant Outcomes of Randomized Control Trials in Spine Surgery",
+      "source_quote": "The aim of this study was to assess the robustness of statistically significant outcomes from randomized control trials (RCTs) in spine surgery using Fragility Index (FI).",
+      "question": "How robust are the statistically significant dichotomous outcomes of randomized controlled trials in spine surgery when robustness is measured by the fragility index?"
+    },
+    {
+      "review_key": "Hall_2012",
+      "doi": "10.1109/TSE.2011.103",
+      "review_title": "A Systematic Literature Review on Fault Prediction Performance in Software Engineering",
+      "source_quote": "We investigate how the context of models, the independent variables used, and the modeling techniques applied influence the performance of fault prediction models.",
+      "question": "How do the context of the model, the independent variables used, and the modelling technique influence how well software fault prediction models perform?"
+    },
+    {
+      "review_key": "Walker_2018",
+      "doi": "10.1016/j.envint.2017.12.032",
+      "review_title": "Human and animal evidence of potential transgenerational inheritance of health effects: An evidence map and state-of-the-science evaluation",
+      "source_quote": "This scoping report examines the evidence for transgenerational inheritance associated with exposure to a wide range of stressors in humans and animals to identify areas of consistency, uncertainty, data gaps, and to evaluate general risk of bias issues for the transgenerational study design.",
+      "question": "What evidence is there, in humans and in animals, that exposure to a stressor causes health effects in later generations that were never directly exposed, and how consistent, uncertain, and biased is that transgenerational evidence?"
+    }
+  ]
+}
